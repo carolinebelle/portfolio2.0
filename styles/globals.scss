@@ -35,6 +35,11 @@
 .app__container {
   width: 100%;
   min-height: 100vh;
+  padding-top: 80px;
+
+  @media screen and (min-width: 2000px) {
+    padding-top: 130px;
+  }
 
   display: flex;
   flex-direction: row;
@@ -138,6 +143,7 @@
     align-items: center;
 
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
 
     svg {
       width: 15px;
@@ -226,8 +232,8 @@
   align-items: center;
 
   img {
-    width: 150px;
-    height: 84px;
+    width: 140px;
+    height: 70px;
 
     @media screen and (min-width: 2000px) {
       width: 220px;
@@ -299,6 +305,7 @@
     width: 70%;
     height: 70%;
     color: var(--white-color);
+    cursor: pointer;
   }
 
   div {
